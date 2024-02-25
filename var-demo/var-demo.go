@@ -17,4 +17,9 @@ func main() {
 	var int2 = 2
 	fmt.Println(int2)
 
+	// Using the walrus operator to assign variable
+
+	int3 := 3
+	fmt.Println(int3)
+
 }
