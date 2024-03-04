@@ -1,3 +1,3 @@
-module demoInvestmantCalculator
+module demoInvestmentCalculator
 
 go 1.18
