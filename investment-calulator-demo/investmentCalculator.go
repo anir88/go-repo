@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("Please enter the time of investment:")
 	fmt.Scan(&durationOfInvestment)
 
-	amountDerived := float64(amountInvested) + math.Pow((1+float64(rateOfInterest/100)), float64(durationOfInvestment))
+	amountDerived := float64(amountInvested) + math.Pow((1+(rateOfInterest/100)), float64(durationOfInvestment))
 
 	fmt.Println("The derived amount is: ", amountDerived)
 
