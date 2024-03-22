@@ -1,1 +1,0 @@
-This is used to demonstrate the usage of datatypes in Go

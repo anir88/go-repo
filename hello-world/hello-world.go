@@ -2,9 +2,11 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Print("Hello World!! I am a new go program")
+	fmt.Print("Hello World!! I am a new Go program")
 
 }
