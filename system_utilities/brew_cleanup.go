@@ -10,6 +10,9 @@ import (
 func main() {
 	fmt.Println("starting the homebrew cleanup job")
 	cmd := exec.Command("brew", "cleanup")
-	fmt.Print(cmd)
-
+	out1, err := cmd.Output()
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(out1)
 }
